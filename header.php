@@ -28,7 +28,7 @@ $currentLanguage = ($_GET['lang'] ?? '') === 'nl' ? 'nl' : 'en';
             <!-- Also needs some php to be able to count the items-->
             <div class="header-button">
                 <div class="header-button-basket">
-                    <a href="#" class="header-basket-link">
+                    <a href="/order.php" class="header-basket-link">
                         <img src="/images/cart.svg" alt="" width="32">
                         <span>Basket</span>
                         <span class="header-basket-count">0</span>

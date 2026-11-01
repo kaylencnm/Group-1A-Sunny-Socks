@@ -2160,3 +2160,266 @@ body.sizingGuide.darkFooter {
     color: #17346f;
 }
 
+/* order page */
+.order-body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #ef86d9 0%, #ffd7a8 100%);
+  min-height: 100vh;
+  color: #222;
+}
+
+.order-main {
+  width: min(1180px, 94%);
+  margin: 0 auto;
+  padding: 18px 0 28px;
+}
+
+.order-shell {
+  display: grid;
+  grid-template-columns: 1.6fr 0.8fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.order-form-panel {
+  background: #cfe0f5;
+  border-radius: 22px;
+  padding: 28px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+}
+
+.order-title {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800;
+}
+
+.order-subtitle {
+  margin: 8px 0 22px;
+  opacity: 0.8;
+}
+
+.order-form {
+  display: grid;
+  gap: 16px;
+}
+
+.order-field {
+  display: grid;
+  gap: 7px;
+}
+
+.order-field label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.order-field input,
+.order-field select {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #fff;
+  border-radius: 12px;
+  padding: 13px 14px;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.order-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.order-section-heading {
+  margin-top: 8px;
+  font-weight: 800;
+  color: #39506c;
+}
+
+.order-item-card {
+  display: grid;
+  grid-template-columns: 62px 1fr;
+  gap: 14px;
+  align-items: center;
+  background: rgba(255,255,255,0.75);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+}
+
+.order-item-card img {
+  width: 62px;
+  height: 62px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.order-item-copy h3,
+.order-item-copy p {
+  margin: 0;
+}
+
+.order-item-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+  font-weight: 700;
+}
+
+.order-item-top span {
+  color: #ef6b55;
+}
+
+.order-item-copy p {
+  margin-top: 4px;
+  font-size: 0.92rem;
+  opacity: 0.75;
+}
+
+.order-item-meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+.order-note {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 0.92rem;
+  padding-top: 4px;
+}
+
+.order-actions {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.order-submit {
+  border: 0;
+  background: #f46a43;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 13px 22px;
+  cursor: pointer;
+}
+
+.order-cancel {
+  color: #5b6b7d;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.order-sidebar {
+  display: grid;
+  gap: 14px;
+}
+
+.order-hero-card {
+  position: relative;
+  min-height: 180px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: url('/images/order-hero.jpg') center/cover no-repeat;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+}
+
+.order-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.45));
+}
+
+.order-hero-text {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  color: #fff;
+}
+
+.order-hero-text p {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.order-hero-text span {
+  font-size: 0.9rem;
+  opacity: 0.95;
+}
+
+.order-info-card {
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+}
+
+.order-info-card h3,
+.order-info-card p {
+  margin: 0;
+}
+
+.order-info-card p {
+  margin-top: 6px;
+  font-size: 0.95rem;
+}
+
+.order-info-card.mint {
+  background: #cfe9dc;
+}
+
+.order-info-card.yellow {
+  background: #f7dd88;
+}
+
+.order-footer {
+  width: min(1180px, 94%);
+  margin: 0 auto 18px;
+  background: linear-gradient(135deg, #20224f, #3a3f7a);
+  border-radius: 18px;
+  color: #fff;
+  padding: 22px 24px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+.order-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.order-footer h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.order-footer p {
+  margin: 6px 0 0;
+  opacity: 0.8;
+}
+
+.order-footer-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.order-footer-links a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+}
